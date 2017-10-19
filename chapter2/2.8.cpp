@@ -2,8 +2,7 @@
 using namespace std;
 int main()
 {
-	int a=20;
-	int *p=&a;
-	cout<<*p<<endl;
+	cout<<2<<"\115\012";
+	cout<<2<<"\t\115\012";
 	return 0;
 }

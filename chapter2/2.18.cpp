@@ -3,7 +3,13 @@
 using namespace std;
 int main()
 {
-    int null=0,*p=nullptr;
-	cout<<p; 
+	int a=10,b=100;
+	int *p=&a;
+	cout<<p<<endl;
+	cout<<*p<<endl;
+	*p=20;//改变指针所指对象的值
+	cout<<*p<<endl;
+	p=&b;//改变指针的值 
+	cout<<p<<endl; 
 	return 0;
 } 
